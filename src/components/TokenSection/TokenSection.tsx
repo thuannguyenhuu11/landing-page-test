@@ -7,9 +7,9 @@ const TokenSection = () => {
   const { switchCoinData, setVolumeTotal } = useContext(DataContext);
 
   return (
-    <div className="w-[90%] mx-auto mt-10">
+    <div className="w-[90%] mx-auto mt-10 0">
       <h2 className="mb-4 text-lg font-bold text-gray-500">Top Token</h2>
-      <div className="py-5 text-white bg-gray-900 rounded-lg ">
+      <div className="py-5 text-white bg-[#1a1b1f] rounded-lg border border-gray-800">
         {/* Token Table */}
         <table className="w-full text-center">
           <thead className="border-b border-gray-700">

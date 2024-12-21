@@ -13,7 +13,7 @@ const ChartVolume = () => {
   }));
 
   return (
-    <div className="p-6 bg-gray-900 rounded-lg xl:w-1/2">
+    <div className="p-6 bg-[#1a1b1f] rounded-lg xl:w-1/2 border border-gray-800">
       <div className="mb-4 text-lg text-gray-400">Volume 24H</div>
       <div className="mb-4 text-4xl font-bold text-gray-50">
         {" "}
